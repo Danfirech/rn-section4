@@ -38,7 +38,7 @@ const StartGameScreen = () => {
     setConfirmed(true);
     setSelectedNumber(parseInt(enteredValue));
     setEnteredValue("");
-    keyboardType.dismiss();
+    Keyboard.dismiss();
   };
 
   let confirmedOutput;
