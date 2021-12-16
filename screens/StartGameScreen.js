@@ -12,6 +12,7 @@ import Card from "../components/Card";
 import Colors from "../constants/colors";
 import Input from "../components/Input";
 import NumberContainer from "../components/NumberContainer";
+import BodyText from "../components/BodyText";
 
 const StartGameScreen = (props) => {
   const [enteredValue, setEnteredValue] = useState("");
@@ -121,6 +122,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 20,
     marginVertical: 10,
+    fontFamily: "open-sans-bold",
   },
 
   button: {
@@ -134,6 +136,7 @@ const styles = StyleSheet.create({
     marginTop: 20,
     alignItems: "center",
   },
+  text: {},
 });
 
 export default StartGameScreen;
