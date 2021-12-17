@@ -7,6 +7,7 @@ import { Colors } from "react-native/Libraries/NewAppScreen";
 import BodyText from "../components/BodyText";
 import TitleText from "../components/TitleText";
 import colors from "../constants/colors";
+import { Dimensions } from "react-native";
 
 const GameOver = (props) => {
   return (
@@ -40,12 +41,12 @@ const styles = StyleSheet.create({
   },
 
   imageContainer: {
-    width: 300,
-    height: 300,
-    borderRadius: 150,
+    width: Dimensions.get("window").width * 0.7,
+    height: Dimensions.get("window").width * 0.7,
+    borderRadius: (Dimensions.get("window").width * 0.7) / 2,
     borderColor: "black",
     overflow: "hidden",
-    margin: 30,
+    marginVertical: Dimensions.get("window").height / 40,
   },
 
   image: {

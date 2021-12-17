@@ -7,6 +7,7 @@ import Card from "../components/Card";
 import MainButton from "../components/MainButton";
 import BodyText from "../components/BodyText";
 import DefaultStyles from "../constants/default-styles";
+import { Dimensions } from "react-native";
 
 const generateRandomBetween = (min, max, exclude) => {
   min = Math.ceil(min);
@@ -101,6 +102,7 @@ const styles = StyleSheet.create({
     marginTop: 20,
     width: 400,
     maxWidth: "90%",
+    marginTop: Dimensions.get("window").height > 600 ? 30 : 5,
   },
   listContainer: {
     flex: 1,
