@@ -3,7 +3,7 @@
     "name": "rn-section4",
     "slug": "rn-section4",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "portait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
@@ -13,9 +13,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },

@@ -102,7 +102,7 @@ const styles = StyleSheet.create({
     marginTop: 20,
     width: 400,
     maxWidth: "90%",
-    marginTop: Dimensions.get("window").height > 600 ? 30 : 5,
+    marginTop: Dimensions.get("window").height > 600 ? 20 : 5,
   },
   listContainer: {
     flex: 1,
