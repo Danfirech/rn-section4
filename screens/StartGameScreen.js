@@ -65,7 +65,7 @@ const StartGameScreen = (props) => {
       }}
     >
       <View style={styles.screen}>
-        <BodyText>Start a New Game!</BodyText>
+        <Text style={styles.startText}>Start a New Game!</Text>
         <Card style={styles.inputContainer}>
           <BodyText>Pick A Number 1-99</BodyText>
 
@@ -140,6 +140,12 @@ const styles = StyleSheet.create({
   },
   text: {
     fontFamily: "open-sans",
+  },
+
+  startText: {
+    paddingBottom: 30,
+    paddingTop: 30,
+    fontSize: 18,
   },
 });
 
